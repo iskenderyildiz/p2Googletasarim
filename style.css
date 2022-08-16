@@ -1,0 +1,53 @@
+/* Tarayıcı Sıfırlama */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Buton Tasarımı ve konumu */
+
+button {
+    border-radius: 20px;
+    padding: 10px 30px;
+    border-style: none;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 5px silver;
+}
+
+
+
+/* Google Logo */
+img {
+    width: 272px;
+    height: 92px;
+    text-align: center;
+}
+/* Orta alan */
+.ortaalan {
+    width: 550px;
+    display: block;
+    text-align: center;
+    margin-top: 300px ;
+    margin-left: 600px;
+}
+
+body {
+    margin: 0px auto;
+}
+
+/* İnput boyut ve köşe ayarlaması */
+.ortaalan input {
+    border: 1px solid silver;
+    width: 550px;
+    height: 30px;
+    border-radius: 20px;
+}
+/* İnput üzerine geldiğinde gölge oluşturma */
+
+.ortaalan input:hover {
+    box-shadow: 1px 1px 5px silver;
+}
+
